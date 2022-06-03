@@ -3,8 +3,11 @@ import requests
 
 # basic badge generator for github
 
-# search for logos:	 https://simpleicons.org/
-# site for badges:	  https://shields.io/
+# search for logos:     https://simpleicons.org/
+# site for badges:      https://shields.io/
+# custom link badge:    https://img.shields.io/badge/NAME-COLOR?logo=LOGO&logoColor=white
+# base64 encoder:       https://www.base64-image.de/
+# img compress:         https://www.iloveimg.com/compress-image
 
 def download(url, fname):
 	get_response = requests.get(url)
